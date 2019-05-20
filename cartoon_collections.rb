@@ -7,6 +7,7 @@ end
 def summon_captain_planet(veggies)
   veggies.each do |item|
     item[0] = item[0].capitalize
+    puts "#{item}!"
   end
 end
 
