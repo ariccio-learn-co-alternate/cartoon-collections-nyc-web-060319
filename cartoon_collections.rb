@@ -5,7 +5,9 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(veggies)
-  # Your code here
+  veggies.each do |item|
+    item[0] = item[0].capitalize
+  end
 end
 
 def long_planeteer_calls# code an argument here
