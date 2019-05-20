@@ -10,6 +10,7 @@ def summon_captain_planet(veggies)
     item[0] = item[0].capitalize
     foods << "#{item}!"
   end
+  foods
 end
 
 def long_planeteer_calls(calls)
