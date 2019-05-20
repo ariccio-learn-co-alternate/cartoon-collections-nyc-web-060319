@@ -5,9 +5,10 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(veggies)
+  foods = []
   veggies.each do |item|
     item[0] = item[0].capitalize
-    puts "#{item}!"
+    foods << "#{item}!"
   end
 end
 
